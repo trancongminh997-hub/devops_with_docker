@@ -1,0 +1,1 @@
+The url in which the released application is: https://heroku-example-helsinki.herokuapp.com/
