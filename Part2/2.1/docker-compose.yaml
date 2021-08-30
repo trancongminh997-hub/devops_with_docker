@@ -1,0 +1,10 @@
+version: '3'
+services:
+  simple-web-service:
+    image: devopsdockeruh/simple-web-service
+    build: .
+    volumes: 
+      - 
+        type: bind
+        source: ./text.log\
+        target: /usr/src/app/text.log
