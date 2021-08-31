@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+    front-end:
+      build: ./frontend
+      ports: 
+        - 5000:5000
+      container_name: front-end
+    back-end:
+      build: ./backend
+      ports: 
+        - 8080:8080
+      container_name: back-end
+    redis:
+      image: redis
+      ports:
+        - 6379:6379
+      container_name: redis-backend
+      
