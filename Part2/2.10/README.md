@@ -1,0 +1,1 @@
+In `docker-compose.yaml`, changing request_origin from `http://localhost:5000` to `http://localhost` to resolve CORS error, since nginx applied, requests to `back-end` sent with `http://localhost` as referer host
